@@ -1,0 +1,223 @@
+/* Fonts
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('OpenSansLight'), local('OpenSans-Light'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenSans'), local('OpenSansRegular'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('OpenSansSemibold'), local('OpenSans-Semibold'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-Semibold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('OpenSansBold'), local('OpenSans-Bold'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Italic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenSansItalic'), local('OpenSans-Italic'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Italic';
+  font-style: normal;
+  font-weight: 300;
+  src: local('OpenSansLightItalic'), local('OpenSans-LightItalic'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-LightItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Italic';
+  font-style: normal;
+  font-weight: 500;
+  src: local('OpenSansSemiboldItalic'), local('OpenSans-SemiboldItalic'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-SemiboldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Italic';
+  font-style: normal;
+  font-weight: 600;
+  src: local('OpenSansBoldItalic'), local('OpenSans-BoldItalic'), url(/sites/gta/Style%20Library/fonts/OpenSans/OpenSans-BoldItalic.ttf) format('truetype');
+}
+*/
+
+/* Hide page while loading */
+.ms-backgroundImage {
+	opacity: 0;
+	transition: all 2s ease 1s;
+}
+
+
+/* Branding top Sharepoint section */
+.ms-core-brandingText:After{
+	content:" - GTA";
+}
+
+/*Resize Navigation Dropdown*/
+ul.dynamic {
+	width: auto !important;
+	white-space: nowrap;
+}
+
+ul.dynamic li {
+	border-top: 1px solid #ddd;
+	padding: 10px 4px;
+	border-radius: 2.5px;
+}
+
+ul.dynamic li:first-child {
+	border-top: 0;
+}
+
+ul.dynamic li:hover {
+	background-color: #E0FCFF;
+}
+
+#DeltaPlaceHolderPageDescription {
+	display:none;
+}
+
+.ms-core-pageTitle {
+	color: #00549D;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 12px;
+	margin-top: 10px;
+}
+
+#contentRow {
+  padding-top: 0px;
+}
+
+#s4-titlerow {
+  padding-top: 11px;
+  padding-bottom: 0px;
+}
+
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-item:hover,
+.ms-core-listMenu-horizontalBox a.ms-core-listMenu-selected.ms-core-listMenu-item:hover,
+a.ms-tv-item:hover,
+a.ms-tv-header:hover {
+  color: #3898ec;
+}
+
+.ms-core-listMenu-item,
+.ms-core-listMenu-item:link,
+.ms-core-listMenu-item:visited,
+.ms-tv-item:link,
+.ms-tv-item:visited,
+.ms-tv-header:link,
+.ms-tv-header:visited {
+  color: #676770;
+}
+
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited,
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
+.ms-tv-selected:link {
+  color: #2276bf;
+}
+
+body {
+  background-color: #edeff2;
+  font-family: 'Open Sans', sans-serif;
+  /* color: #6a859c;    request of Barbara for darker font*/
+  color: #375269;
+  font-size: 16px;
+  line-height: 20px;
+	letter-spacing: .8px;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 12px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #676770;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*color: #676770;    */
+  color: #454550;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  /* color: #676770;    */
+  color: #454550;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a,
+.ms-link:visited,
+a:visited {
+	color: #00549D;
+}
+
+/* Show page when done */
+.ms-backgroundImage {
+	opacity: 1;
+}

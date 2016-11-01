@@ -1,0 +1,24 @@
+/* Branding top Sharepoint section */
+.ms-core-brandingText:After{
+	content:" - GTA";
+}
+
+/*Resize Navigation Dropdown*/
+ul.dynamic {
+	width: auto !important;
+	white-space: nowrap;
+}
+
+ul.dynamic li {
+	border-top: 1px solid #ddd;
+	padding: 10px 4px;
+	border-radius: 2.5px;
+}
+
+ul.dynamic li:first-child {
+	border-top: 0;
+}
+
+ul.dynamic li:hover {
+	background-color: #E0FCFF;
+}
