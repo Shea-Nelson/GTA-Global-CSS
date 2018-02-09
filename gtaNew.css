@@ -94,8 +94,37 @@ ul.dynamic li:hover {
 	margin-top: 10px;
 }
 
+.ms-accentText, 
+.ms-accentText:visited {
+  margin-top: 15px;
+}
+
 #contentRow {
   padding-top: 0px;
+}
+
+#contentBox {
+    margin-left: 170px;
+}
+
+#sideNavBox {
+    width: 130px;
+}
+
+#site_follow_button {
+    display: none !important;
+}
+
+#ctl00_ctl51_site_share_button {
+    display: none !important;
+}
+
+#ctl00_ctl51_TopHelpLink {
+    display: none !important;
+}
+
+#ctl00_ctl51_SyncPromotedAction {
+  display: none !important;
 }
 
 #s4-titlerow {
@@ -125,6 +154,17 @@ a.ms-tv-header:hover {
 .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected,
 .ms-tv-selected:link {
   color: #2276bf;
+}
+
+#ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAll {
+  display: none;
+}
+
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenu-item, 
+.ms-core-listMenu-verticalBox > .ms-core-listMenu-root > li > .ms-core-listMenuEdit, 
+.ms-core-listMenu-heading, 
+.ms-tv-header {
+  font-size: 12px;
 }
 
 body {
@@ -203,6 +243,14 @@ p {
   font-weight: 300;
 }
 
+.col-fluid-2 {
+  max-width: 800px;
+}
+
+.col-fluid-2 p {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none;
 }
@@ -215,6 +263,25 @@ a,
 .ms-link:visited,
 a:visited {
 	color: #00549D;
+}
+
+.ms-core-listMenu-verticalBox, 
+.ms-core-listMenu-horizontalBox {
+  font-size: 16px;
+}
+
+@media (max-width: 1600px) {
+ .ms-core-listMenu-verticalBox, 
+ .ms-core-listMenu-horizontalBox {
+   font-size:14px;
+ }
+}
+
+@media (max-width: 1420px) {
+ .ms-core-listMenu-verticalBox, 
+ .ms-core-listMenu-horizontalBox {
+   font-size:12px;
+ }
 }
 
 /* Show page when done */
